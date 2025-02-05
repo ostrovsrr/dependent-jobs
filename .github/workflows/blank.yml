@@ -24,7 +24,7 @@ jobs:
       - name: new step
         run: ls
       - name: another step
-        run: ps -aux
+        run: ps -ef
 
   Final_job:
     name: A final job
